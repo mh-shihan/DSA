@@ -1,4 +1,4 @@
-# DSA Learning Repository
+﻿# DSA Learning Repository
 
 A comprehensive collection of Data Structures and Algorithms implementations, problem solutions, and learning materials. This repository documents the complete journey from fundamentals to advanced DSA concepts.
 
@@ -25,6 +25,32 @@ This repository contains:
 - **Advanced Data Structures** - Linked Lists, Stacks, Queues, Trees
 - **Problem Solutions** - LeetCode and Code360 implementations
 - **Projects** - Real-world applications and practical implementations
+
+---
+
+## 📊 Repository Statistics
+
+| Metric                         | Count       |
+| ------------------------------ | ----------- |
+| **Total Problems Solved**      | 250+        |
+| **C++ Problem Files**          | 247+        |
+| **JavaScript Problem Files**   | 3+          |
+| **Learning Modules (Phase-1)** | 19          |
+| **Advanced Topics (Phase-2)**  | 9           |
+| **Study Materials**            | 8 PDF Notes |
+| **Live Projects**              | 1           |
+
+### Problem Categories
+
+- 📊 **Array Problems** - Search, sort, and manipulation
+- 🔍 **Binary Search** - Multiple search implementations
+- 🔄 **Sorting Algorithms** - Bubble, Selection, Insertion, Heap Sort
+- 🔗 **Linked List** - Insertion, deletion, traversal operations
+- 🎯 **Bit Manipulation** - Power of 2, set bits, complement operations
+- 📐 **Math Problems** - Number operations and conversions
+- 🎨 **Pattern Programs** - Character and number patterns
+- 🏗️ **Data Structures** - 2D Arrays, Stacks, Queues, OOP
+- 💻 **Platform Problems** - LeetCode and Code360 solutions
 
 ---
 
@@ -372,3 +398,10 @@ This repository documents a structured progression through DSA:
 ---
 
 _This repository is a comprehensive learning resource for mastering Data Structures and Algorithms through structured practice and implementation._
+
+# To count the total files in the repository, you can use the following command in your terminal:
+
+```bash
+powershell -ExecutionPolicy Bypass -File "c:\DSA\update-statistics.ps1"
+```
+
