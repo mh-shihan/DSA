@@ -390,6 +390,12 @@ This repository documents a structured progression through DSA:
 4. Practice with provided code examples
 5. Solve problems incrementally
 
+### To count the total files in the repository, you can use the following command in your terminal:
+
+```bash
+powershell -ExecutionPolicy Bypass -File "c:\DSA\update-statistics.ps1"
+```
+
 ---
 
 **Last Updated**: December 31, 2025  
@@ -398,10 +404,3 @@ This repository documents a structured progression through DSA:
 ---
 
 _This repository is a comprehensive learning resource for mastering Data Structures and Algorithms through structured practice and implementation._
-
-# To count the total files in the repository, you can use the following command in your terminal:
-
-```bash
-powershell -ExecutionPolicy Bypass -File "c:\DSA\update-statistics.ps1"
-```
-
