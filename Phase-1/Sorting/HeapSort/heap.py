@@ -71,13 +71,11 @@ class Heap:
 
     # Print the current state of the heap
     def printHeap(self):
-        i = 0
         printArr = []
-        while (i < self.size):
+        for i in range(self.size):
             printArr.append(self.arr[i])
-            i +=1
         print(printArr)
-
+       
 
 array = [50,70,40,10,20, 100]
 h = Heap(array)
@@ -85,7 +83,7 @@ print("initial heap")
 h.printHeap()
 
 h.heapSort()
-print("after heapsort")
+print("after Heap Sort")
 h.printHeap()
 
 h.insert(80)
