@@ -10,7 +10,7 @@
       "intelliSenseMode": "windows-gcc-x64"
     },
     {
-      "name": "Win32",
+      "name": "",
       "includePath": ["${workspaceFolder}/**"],
       "defines": ["_DEBUG", "UNICODE", "_UNICODE"]
     }
