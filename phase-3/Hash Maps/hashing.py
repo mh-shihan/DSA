@@ -4,7 +4,7 @@ for i in range(n):
     arr.append(int(input()))
 
 # Precompute
-hash_map = [0] * n
+hash_map = [0] * (n + 1)
 for i in range(n):
     hash_map[arr[i]] += 1
 

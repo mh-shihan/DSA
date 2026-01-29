@@ -33,3 +33,4 @@ int main(){
         cout << "Frequency of " << x << " is 0" << endl;
     }
 }
+}
