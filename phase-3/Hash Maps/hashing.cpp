@@ -26,6 +26,10 @@ int main(){
         cin >> x;
         
         // Fetch
+        if (x < n && x >= 0){
         cout << "Frequency of " << x << " is " << hash[x] << endl;
+        }
+        else{
+        cout << "Frequency of " << x << " is 0" << endl;
     }
 }
