@@ -6,7 +6,7 @@ def kLargestElements(arr, k):
     for n in arr:
         heapq.heappush(minHeap, n)
         
-        if(len(minHeap) > 2):
+        if(len(minHeap) > k):
             heapq.heappop(minHeap)
     
     return minHeap
