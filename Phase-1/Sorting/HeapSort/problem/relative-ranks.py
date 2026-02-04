@@ -2,7 +2,7 @@ import heapq
 from typing import List
 
 
-def findRelativeRanks(self, score: List[int]) -> List[str]:
+def findRelativeRanks( score: List[int]) -> List[str]:
     N = len(score)
 
     # Create a heap of pairs (score, index)
