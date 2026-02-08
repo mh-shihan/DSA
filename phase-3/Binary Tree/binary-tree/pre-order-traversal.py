@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -20,3 +21,20 @@ def build_tree():
     root.right = build_tree()
 
     return root
+
+
+def preOrder(root):
+    """DFS Pre-order traversal: Root -> Left -> Right"""
+    if root is None:
+        return
+    
+    print(root.data, end=" ")
+    preOrder(root.left)
+    preOrder(root.right)
+
+
+root = build_tree()
+print("Binary Tree is built successfully.")
+print("\nDFS Pre-order Traversal:")
+preOrder(root)
+print()
