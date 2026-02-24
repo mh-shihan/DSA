@@ -7,6 +7,16 @@ class Node:
 class BST:
     def __init__(self):
         self.root = None
+    
+    def findMaximum(self, root):
+        while root.right != None:
+            root = root.right
+        return root
+
+    def findMinimum(self, root):
+        while root.left != None:
+            root = root.left
+        return root
         
     def insertIntoBST(self, root, data):
             if not root:
