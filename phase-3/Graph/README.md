@@ -59,9 +59,13 @@ graph LR
     4 --- 1
 ```
 
+---
+
 # 3️⃣ Directed Graph (Digraph)
 
 - In a Directed Graph, edges have a specific direction.
+
+---
 
 # 4️⃣ Cycle in Graph
 
@@ -70,9 +74,13 @@ graph LR
 - Travel through edges
 - Return to the same node
 
+---
+
 # 5️⃣ Directed Acyclic Graph (DAG)
 
 - A Directed Acyclic Graph is a directed graph without cycles
+
+---
 
 # 6️⃣ Path in a Graph
 
@@ -81,13 +89,13 @@ A Path is a sequence of nodes where:
 - Each adjacent pair has an edge
 - No node appears twice
 
-![Path](images/path.png)
+## ![Path](images/path.png)
 
 # 7️⃣ Degree of a Node (Undirected Graph)
 
 The degree of a node is the number of edges connected to it.
 
-![Degree](images/degree.png)
+## ![Degree](images/degree.png)
 
 # 8️⃣ In-Degree and Out-Degree (Directed Graph)
 
@@ -98,6 +106,8 @@ Number of incoming edges.
 
 **Out-Degree:**
 Number of outgoing edges.
+
+---
 
 # 9️⃣ Weighted Graph
 
@@ -110,6 +120,8 @@ In many problems, edges have weights.
 - **Time**
 - **Network latency**
   ![Weighted Graph](images/weighted-graph.png)
+
+---
 
 # 🔑 Key Concepts Summary
 
