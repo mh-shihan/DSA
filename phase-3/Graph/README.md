@@ -81,9 +81,13 @@ A Path is a sequence of nodes where:
 - Each adjacent pair has an edge
 - No node appears twice
 
+![Path](images/path.png)
+
 # 7️⃣ Degree of a Node (Undirected Graph)
 
 The degree of a node is the number of edges connected to it.
+
+![Degree](images/degree.png)
 
 # 8️⃣ In-Degree and Out-Degree (Directed Graph)
 
@@ -105,6 +109,7 @@ In many problems, edges have weights.
 - **Cost**
 - **Time**
 - **Network latency**
+  ![Weighted Graph](images/weighted-graph.png)
 
 # 🔑 Key Concepts Summary
 
