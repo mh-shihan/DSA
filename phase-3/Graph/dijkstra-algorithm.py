@@ -1,5 +1,7 @@
 import heapq
 
+# Time complexity: O(E log V) where E is the number of edges and V is the number of vertices
+
 class Solution:
     def dijkstra(self, V, edges, src):
         # Build adjacency dictionary
